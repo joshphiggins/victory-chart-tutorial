@@ -13,7 +13,28 @@ const data = [  {x: new Date(1982, 1, 1), y: 125},
                 {x: new Date(2011, 1, 1), y: 270},
                 {x: new Date(2015, 1, 1), y: 2000}
               ];
-
+const yellow200 = "#FFF59D";
+const deepOrange600 = "#F4511E";
+const lime300 = "#DCE775";
+const lightGreen500 = "#8BC34A";
+const teal700 = "#00796B";
+const cyan900 = "#006064";
+const blueGrey50 = "#ECEFF1";
+const blueGrey300 = "#90A4AE";
+const blueGrey700 = "#455A64";
+const grey900 = "#212121";
+const colors = [
+  deepOrange600,
+  yellow200,
+  lime300,
+  lightGreen500,
+  teal700,
+  cyan900,
+  blueGrey50,
+  blueGrey300,
+  blueGrey700,
+  grey900
+];
 class LineZoom extends React.Component {
   // Convert to Highchart-like stock chart would need
   // 1- Zoom button functionality
@@ -56,11 +77,23 @@ class LineZoom extends React.Component {
               />
             }
           >
-            <VictoryAxis
-              styles={styles.axisX}
-            />
             <VictoryAxis dependentAxis
-              styles={styles.axisY}
+              // x
+              style={{
+               axis: {stroke: colors.grey900},
+               ticks: {stroke: colors.grey900},
+               tickLabels: {fontSize: 12, padding: 30, stroke:"#EAEDEF"}
+             }}
+            />
+            <VictoryAxis independentAxis
+              // y
+              dependentAxis
+              style={{
+                 axis: {stroke: "none"},
+                 ticks: {stroke: colors.grey900},
+                 grid: {stroke:colors.grey900},
+                 tickLabels: {fontSize: 12, padding: 30,   stroke:colors.grey900}
+              }}
             />
 
 
@@ -113,18 +146,23 @@ class LineZoom extends React.Component {
     const lightGreen500 = "#8BC34A";
     const teal700 = "#00796B";
     const cyan900 = "#006064";
+    const blueGrey50 = "#ECEFF1";
+    const blueGrey300 = "#90A4AE";
+    const blueGrey700 = "#455A64";
+    const grey900 = "#212121";
     const colors = [
       deepOrange600,
       yellow200,
       lime300,
       lightGreen500,
       teal700,
-      cyan900
+      cyan900,
+      blueGrey50,
+      blueGrey300,
+      blueGrey700,
+      grey900
     ];
-    const blueGrey50 = "#ECEFF1";
-    const blueGrey300 = "#90A4AE";
-    const blueGrey700 = "#455A64";
-    const grey900 = "#212121";
+
     // Typography
     const sansSerif = "'Roboto', 'Helvetica Neue', Helvetica, sans-serif";
     const letterSpacing = "normal";
@@ -167,7 +205,7 @@ class LineZoom extends React.Component {
       axisY: {
             grid: {
               stroke: (tick) =>
-                tick === -10 ? "transparent" : "#90A4AE",
+                tick === -10 ? "transparent" : "blueGrey300",
               strokeWidth: 2
             },
             axis: { stroke: "", strokeWidth: 0 },

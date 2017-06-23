@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import LineZoom from './LineZoom';
 import CustomChart from './CustomChart';
 import GroupBars from './GroupedBars';
+// import CheckIn from './CheckIn';
 
 class Container extends React.Component {
   render () {
