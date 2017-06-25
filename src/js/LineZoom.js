@@ -68,7 +68,7 @@ class LineZoom extends React.Component {
     return (
       <div>
           <VictoryChart width={1000} height={400} scale={{x: "time"}} style={chartStyle}
-            theme={CustomTheme}
+            /*theme={CustomTheme}*/
             containerComponent={
               <VictoryZoomContainer responsive={false}
                 dimension="x"
@@ -77,21 +77,24 @@ class LineZoom extends React.Component {
               />
             }
           >
-            <VictoryAxis dependentAxis
-              // x
+            <VictoryAxis
+              // x axis
               style={{
-               axis: {stroke: colors.grey900},
-               ticks: {stroke: colors.grey900},
-               tickLabels: {fontSize: 12, padding: 30, stroke:"#EAEDEF"}
+               axis: {stroke: colors.blueGrey700},
+               ticks: {stroke: colors.blueGrey700},
+               tickLabels: {fontSize: 12, padding: 30, stroke:"#EAEDEF"},
+               // grid: {stroke:colors.teal700},
              }}
             />
-            <VictoryAxis independentAxis
-              // y
+            <VictoryAxis
+              // y axis
               dependentAxis
               style={{
-                 axis: {stroke: "none"},
+                 axis: {stroke: 300},
                  ticks: {stroke: colors.grey900},
-                 grid: {stroke:colors.grey900},
+                 grid: {stroke:colors.lime300},
+                 // grid : {stroke: (tick) =>
+                     // tick === 0 ? "transparent" : colors.lime300},
                  tickLabels: {fontSize: 12, padding: 30,   stroke:colors.grey900}
               }}
             />
