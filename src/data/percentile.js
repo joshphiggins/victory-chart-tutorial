@@ -1,0 +1,883 @@
+exports.p = [
+  {
+    "date": 725760000.0,
+      "5thperc": 0.276,
+      "25thperc": 0.86,
+      "50thperc": 1.16,
+      "75thperc": 1.44,
+      "95thperc": 2.0
+},
+  {
+    "date": 733536000.0,
+
+      "5thperc": 0.32,
+      "25thperc": 0.94,
+      "50thperc": 1.29,
+      "75thperc": 1.66,
+      "95thperc": 2.55
+},
+  {
+    "date": 741398400.0,
+
+      "5thperc": 0.42,
+      "25thperc": 0.97,
+      "50thperc": 1.29,
+      "75thperc": 1.64,
+      "95thperc": 2.37
+},
+  {
+    "date": 749347200.0,
+
+      "5thperc": 0.44,
+      "25thperc": 0.99,
+      "50thperc": 1.28,
+      "75thperc": 1.61,
+      "95thperc": 2.29
+},
+  {
+    "date": 757296000.0,
+
+      "5thperc": 0.376,
+      "25thperc": 0.94,
+      "50thperc": 1.21,
+      "75thperc": 1.51,
+      "95thperc": 2.12
+},
+  {
+    "date": 765072000.0,
+
+      "5thperc": 0.3,
+      "25thperc": 0.84,
+      "50thperc": 1.15,
+      "75thperc": 1.47,
+      "95thperc": 2.13
+},
+  {
+    "date": 772934400.0,
+
+      "5thperc": 0.369,
+      "25thperc": 0.89,
+      "50thperc": 1.18,
+      "75thperc": 1.49,
+      "95thperc": 2.06
+},
+  {
+    "date": 780883200.0,
+
+      "5thperc": 0.41,
+      "25thperc": 0.91,
+      "50thperc": 1.18,
+      "75thperc": 1.47,
+      "95thperc": 2.039
+},
+  {
+    "date": 788832000.0,
+
+      "5thperc": 0.36,
+      "25thperc": 0.87,
+      "50thperc": 1.13,
+      "75thperc": 1.4,
+      "95thperc": 1.89
+},
+  {
+    "date": 796608000.0,
+
+      "5thperc": 0.35,
+      "25thperc": 0.86,
+      "50thperc": 1.14,
+      "75thperc": 1.45,
+      "95thperc": 2.06
+},
+  {
+    "date": 804470400.0,
+
+      "5thperc": 0.386,
+      "25thperc": 0.87,
+      "50thperc": 1.15,
+      "75thperc": 1.45,
+      "95thperc": 2.03
+},
+  {
+    "date": 812419200.0,
+
+      "5thperc": 0.42,
+      "25thperc": 0.91,
+      "50thperc": 1.19,
+      "75thperc": 1.48,
+      "95thperc": 2.06
+},
+  {
+    "date": 820368000.0,
+
+      "5thperc": 0.39,
+      "25thperc": 0.88,
+      "50thperc": 1.14,
+      "75thperc": 1.4175,
+      "95thperc": 1.92
+},
+  {
+    "date": 828230400.0,
+
+      "5thperc": 0.35,
+      "25thperc": 0.89,
+      "50thperc": 1.2,
+      "75thperc": 1.51,
+      "95thperc": 2.1
+},
+  {
+    "date": 836092800.0,
+
+      "5thperc": 0.404,
+      "25thperc": 0.91,
+      "50thperc": 1.21,
+      "75thperc": 1.52,
+      "95thperc": 2.09
+},
+  {
+    "date": 844041600.0,
+
+      "5thperc": 0.08,
+      "25thperc": 0.87,
+      "50thperc": 1.21,
+      "75thperc": 1.51,
+      "95thperc": 2.04
+},
+  {
+    "date": 851990400.0,
+
+      "5thperc": 0.1845,
+      "25thperc": 0.83,
+      "50thperc": 1.15,
+      "75thperc": 1.43,
+      "95thperc": 1.93
+},
+  {
+    "date": 859766400.0,
+
+      "5thperc": 0.35,
+      "25thperc": 0.89,
+      "50thperc": 1.2,
+      "75thperc": 1.51,
+      "95thperc": 2.19
+},
+  {
+    "date": 867628800.0,
+
+      "5thperc": 0.46,
+      "25thperc": 0.93,
+      "50thperc": 1.22,
+      "75thperc": 1.52,
+      "95thperc": 2.17
+},
+  {
+    "date": 875577600.0,
+
+      "5thperc": 0.45,
+      "25thperc": 0.94,
+      "50thperc": 1.23,
+      "75thperc": 1.53,
+      "95thperc": 2.18
+},
+  {
+    "date": 883526400.0,
+
+      "5thperc": 0.38,
+      "25thperc": 0.88,
+      "50thperc": 1.18,
+      "75thperc": 1.45,
+      "95thperc": 2.03
+},
+  {
+    "date": 891302400.0,
+
+      "5thperc": 0.32,
+      "25thperc": 0.89,
+      "50thperc": 1.19,
+      "75thperc": 1.53,
+      "95thperc": 2.33
+},
+  {
+    "date": 899164800.0,
+
+      "5thperc": 0.3465,
+      "25thperc": 0.89,
+      "50thperc": 1.2,
+      "75thperc": 1.52,
+      "95thperc": 2.29
+},
+  {
+    "date": 907113600.0,
+
+      "5thperc": 0.35,
+      "25thperc": 0.89,
+      "50thperc": 1.2,
+      "75thperc": 1.51,
+      "95thperc": 2.27
+},
+  {
+    "date": 915062400.0,
+
+      "5thperc": 0.25,
+      "25thperc": 0.83,
+      "50thperc": 1.14,
+      "75thperc": 1.43,
+      "95thperc": 2.1045
+},
+  {
+    "date": 922838400.0,
+
+      "5thperc": 0.14,
+      "25thperc": 0.76,
+      "50thperc": 1.09,
+      "75thperc": 1.42,
+      "95thperc": 2.2
+},
+  {
+    "date": 930700800.0,
+
+      "5thperc": 0.18,
+      "25thperc": 0.79,
+      "50thperc": 1.11,
+      "75thperc": 1.43,
+      "95thperc": 2.199
+},
+  {
+    "date": 938649600.0,
+
+      "5thperc": 0.17,
+      "25thperc": 0.8,
+      "50thperc": 1.13,
+      "75thperc": 1.45,
+      "95thperc": 2.2
+},
+  {
+    "date": 946598400.0,
+
+      "5thperc": 0.06,
+      "25thperc": 0.77,
+      "50thperc": 1.08,
+      "75thperc": 1.39,
+      "95thperc": 2.11
+},
+  {
+    "date": 954460800.0,
+
+      "5thperc": 0.102,
+      "25thperc": 0.8,
+      "50thperc": 1.13,
+      "75thperc": 1.52,
+      "95thperc": 2.35
+},
+  {
+    "date": 962323200.0,
+
+      "5thperc": 0.22,
+      "25thperc": 0.83,
+      "50thperc": 1.15,
+      "75thperc": 1.51,
+      "95thperc": 2.36
+},
+  {
+    "date": 970272000.0,
+
+      "5thperc": 0.14,
+      "25thperc": 0.82,
+      "50thperc": 1.15,
+      "75thperc": 1.51,
+      "95thperc": 2.31
+},
+  {
+    "date": 978220800.0,
+
+      "5thperc": 0.03,
+      "25thperc": 0.77,
+      "50thperc": 1.09,
+      "75thperc": 1.43,
+      "95thperc": 2.18
+},
+  {
+    "date": 985996800.0,
+
+      "5thperc": 0.04,
+      "25thperc": 0.71,
+      "50thperc": 1.05,
+      "75thperc": 1.43,
+      "95thperc": 2.3
+},
+  {
+    "date": 993859200.0,
+
+      "5thperc": 0.06,
+      "25thperc": 0.71,
+      "50thperc": 1.06,
+      "75thperc": 1.42,
+      "95thperc": 2.27
+},
+  {
+    "date": 1001808000.0,
+
+      "5thperc": 0.06,
+      "25thperc": 0.72,
+      "50thperc": 1.06,
+      "75thperc": 1.42,
+      "95thperc": 2.23
+},
+  {
+    "date": 1009756800.0,
+
+      "5thperc": 0.02,
+      "25thperc": 0.68,
+      "50thperc": 1.02,
+      "75thperc": 1.36,
+      "95thperc": 2.122
+},
+  {
+    "date": 1017532800.0,
+
+      "5thperc": 0.01,
+      "25thperc": 0.74,
+      "50thperc": 1.11,
+      "75thperc": 1.5,
+      "95thperc": 2.4
+},
+  {
+    "date": 1025395200.0,
+
+      "5thperc": 0.0769999999999999,
+      "25thperc": 0.79,
+      "50thperc": 1.14,
+      "75thperc": 1.51,
+      "95thperc": 2.346
+},
+  {
+    "date": 1033344000.0,
+
+      "5thperc": 0.1515,
+      "25thperc": 0.7975,
+      "50thperc": 1.16,
+      "75thperc": 1.53,
+      "95thperc": 2.33
+},
+  {
+    "date": 1041292800.0,
+
+      "5thperc": 0.0690000000000004,
+      "25thperc": 0.765,
+      "50thperc": 1.1,
+      "75thperc": 1.46,
+      "95thperc": 2.23
+},
+  {
+    "date": 1049068800.0,
+
+      "5thperc": 0.05,
+      "25thperc": 0.74,
+      "50thperc": 1.1,
+      "75thperc": 1.49,
+      "95thperc": 2.4055
+},
+  {
+    "date": 1056931200.0,
+
+      "5thperc": 0.16,
+      "25thperc": 0.76,
+      "50thperc": 1.11,
+      "75thperc": 1.5,
+      "95thperc": 2.39
+},
+  {
+    "date": 1064880000.0,
+
+      "5thperc": 0.19,
+      "25thperc": 0.76,
+      "50thperc": 1.11,
+      "75thperc": 1.49,
+      "95thperc": 2.4
+},
+  {
+    "date": 1072828800.0,
+
+      "5thperc": 0.14,
+      "25thperc": 0.73,
+      "50thperc": 1.06,
+      "75thperc": 1.41,
+      "95thperc": 2.25
+},
+  {
+    "date": 1080691200.0,
+
+      "5thperc": 0.13,
+      "25thperc": 0.72,
+      "50thperc": 1.07,
+      "75thperc": 1.46,
+      "95thperc": 2.36
+},
+  {
+    "date": 1088553600.0,
+
+      "5thperc": 0.15,
+      "25thperc": 0.74,
+      "50thperc": 1.09,
+      "75thperc": 1.47,
+      "95thperc": 2.34
+},
+  {
+    "date": 1096502400.0,
+
+      "5thperc": 0.15,
+      "25thperc": 0.76,
+      "50thperc": 1.1,
+      "75thperc": 1.48,
+      "95thperc": 2.35
+},
+  {
+    "date": 1104451200.0,
+
+      "5thperc": 0.13,
+      "25thperc": 0.73,
+      "50thperc": 1.06,
+      "75thperc": 1.42,
+      "95thperc": 2.25
+},
+  {
+    "date": 1112227200.0,
+
+      "5thperc": 0.16,
+      "25thperc": 0.74,
+      "50thperc": 1.08,
+      "75thperc": 1.48,
+      "95thperc": 2.39599999999999
+},
+  {
+    "date": 1120089600.0,
+
+      "5thperc": 0.15,
+      "25thperc": 0.77,
+      "50thperc": 1.1,
+      "75thperc": 1.5,
+      "95thperc": 2.37349999999999
+},
+  {
+    "date": 1128038400.0,
+
+      "5thperc": 0.14,
+      "25thperc": 0.77,
+      "50thperc": 1.11,
+      "75thperc": 1.51,
+      "95thperc": 2.415
+},
+  {
+    "date": 1135987200.0,
+
+      "5thperc": 0.04,
+      "25thperc": 0.73,
+      "50thperc": 1.07,
+      "75thperc": 1.45,
+      "95thperc": 2.3
+},
+  {
+    "date": 1143763200.0,
+
+      "5thperc": 0.0,
+      "25thperc": 0.69,
+      "50thperc": 1.05,
+      "75thperc": 1.47,
+      "95thperc": 2.46
+},
+  {
+    "date": 1151625600.0,
+
+      "5thperc": -0.02,
+      "25thperc": 0.71,
+      "50thperc": 1.07,
+      "75thperc": 1.49,
+      "95thperc": 2.5
+},
+  {
+    "date": 1159574400.0,
+
+      "5thperc": -0.06,
+      "25thperc": 0.7,
+      "50thperc": 1.08,
+      "75thperc": 1.5,
+      "95thperc": 2.5
+},
+  {
+    "date": 1167523200.0,
+
+      "5thperc": -0.18,
+      "25thperc": 0.66,
+      "50thperc": 1.03,
+      "75thperc": 1.45,
+      "95thperc": 2.39
+},
+  {
+    "date": 1175299200.0,
+
+      "5thperc": -0.24,
+      "25thperc": 0.58,
+      "50thperc": 0.98,
+      "75thperc": 1.41,
+      "95thperc": 2.42
+},
+  {
+    "date": 1183161600.0,
+
+      "5thperc": -0.3,
+      "25thperc": 0.6,
+      "50thperc": 1.0,
+      "75thperc": 1.44,
+      "95thperc": 2.4
+},
+  {
+    "date": 1191110400.0,
+
+      "5thperc": -0.42,
+      "25thperc": 0.5925,
+      "50thperc": 1.01,
+      "75thperc": 1.43,
+      "95thperc": 2.4
+},
+  {
+    "date": 1199059200.0,
+
+      "5thperc": -0.73,
+      "25thperc": 0.54,
+      "50thperc": 0.96,
+      "75thperc": 1.36,
+      "95thperc": 2.27
+},
+  {
+    "date": 1206921600.0,
+
+      "5thperc": -0.8935,
+      "25thperc": 0.48,
+      "50thperc": 0.93,
+      "75thperc": 1.36,
+      "95thperc": 2.30349999999999
+},
+  {
+    "date": 1214784000.0,
+
+      "5thperc": -1.149,
+      "25thperc": 0.46,
+      "50thperc": 0.9,
+      "75thperc": 1.33,
+      "95thperc": 2.22
+},
+  {
+    "date": 1222732800.0,
+
+      "5thperc": -1.7285,
+      "25thperc": 0.34,
+      "50thperc": 0.84,
+      "75thperc": 1.3,
+      "95thperc": 2.17849999999999
+},
+  {
+    "date": 1230681600.0,
+
+      "5thperc": -2.1955,
+      "25thperc": 0.23,
+      "50thperc": 0.73,
+      "75thperc": 1.18,
+      "95thperc": 2.0
+},
+  {
+    "date": 1238457600.0,
+
+      "5thperc": -1.58,
+      "25thperc": 0.27,
+      "50thperc": 0.73,
+      "75thperc": 1.1975,
+      "95thperc": 2.08
+},
+  {
+    "date": 1246320000.0,
+
+      "5thperc": -2.09,
+      "25thperc": 0.15,
+      "50thperc": 0.66,
+      "75thperc": 1.13,
+      "95thperc": 1.99
+},
+  {
+    "date": 1254268800.0,
+
+      "5thperc": -2.08,
+      "25thperc": 0.12,
+      "50thperc": 0.64,
+      "75thperc": 1.12,
+      "95thperc": 1.97
+},
+  {
+    "date": 1262217600.0,
+
+      "5thperc": -2.39,
+      "25thperc": 0.05,
+      "50thperc": 0.58,
+      "75thperc": 1.05,
+      "95thperc": 1.83
+},
+  {
+    "date": 1269993600.0,
+
+      "5thperc": -1.23,
+      "25thperc": 0.31,
+      "50thperc": 0.71,
+      "75thperc": 1.16,
+      "95thperc": 2.065
+},
+  {
+    "date": 1277856000.0,
+
+      "5thperc": -1.47,
+      "25thperc": 0.29,
+      "50thperc": 0.72,
+      "75thperc": 1.17,
+      "95thperc": 2.04
+},
+  {
+    "date": 1285804800.0,
+
+      "5thperc": -1.4225,
+      "25thperc": 0.3,
+      "50thperc": 0.72,
+      "75thperc": 1.19,
+      "95thperc": 2.05
+},
+  {
+    "date": 1293753600.0,
+
+      "5thperc": -1.9015,
+      "25thperc": 0.24,
+      "50thperc": 0.68,
+      "75thperc": 1.14,
+      "95thperc": 1.94
+},
+  {
+    "date": 1301529600.0,
+
+      "5thperc": -0.8815,
+      "25thperc": 0.35,
+      "50thperc": 0.73,
+      "75thperc": 1.16,
+      "95thperc": 2.07
+},
+  {
+    "date": 1309392000.0,
+
+      "5thperc": -0.9905,
+      "25thperc": 0.37,
+      "50thperc": 0.75,
+      "75thperc": 1.2,
+      "95thperc": 2.0605
+},
+  {
+    "date": 1317340800.0,
+
+      "5thperc": -0.92,
+      "25thperc": 0.39,
+      "50thperc": 0.79,
+      "75thperc": 1.24,
+      "95thperc": 2.1
+},
+  {
+    "date": 1325289600.0,
+
+      "5thperc": -1.1405,
+      "25thperc": 0.37,
+      "50thperc": 0.77,
+      "75thperc": 1.19,
+      "95thperc": 2.02
+},
+  {
+    "date": 1333152000.0,
+
+      "5thperc": -0.39,
+      "25thperc": 0.46,
+      "50thperc": 0.855,
+      "75thperc": 1.2825,
+      "95thperc": 2.24
+},
+  {
+    "date": 1341014400.0,
+
+      "5thperc": -0.43,
+      "25thperc": 0.48,
+      "50thperc": 0.86,
+      "75thperc": 1.2825,
+      "95thperc": 2.21
+},
+  {
+    "date": 1348963200.0,
+
+      "5thperc": -0.3905,
+      "25thperc": 0.5,
+      "50thperc": 0.88,
+      "75thperc": 1.28,
+      "95thperc": 2.2
+},
+  {
+    "date": 1356912000.0,
+
+      "5thperc": -0.51,
+      "25thperc": 0.47,
+      "50thperc": 0.85,
+      "75thperc": 1.25,
+      "95thperc": 2.13
+},
+  {
+    "date": 1364688000.0,
+
+      "5thperc": -0.17,
+      "25thperc": 0.46,
+      "50thperc": 0.8,
+      "75thperc": 1.21,
+      "95thperc": 2.12
+},
+  {
+    "date": 1372550400.0,
+
+      "5thperc": -0.13,
+      "25thperc": 0.49,
+      "50thperc": 0.84,
+      "75thperc": 1.24,
+      "95thperc": 2.1105
+},
+  {
+    "date": 1380499200.0,
+
+      "5thperc": -0.13,
+      "25thperc": 0.5,
+      "50thperc": 0.84,
+      "75thperc": 1.24,
+      "95thperc": 2.1
+},
+  {
+    "date": 1388448000.0,
+
+      "5thperc": -0.2,
+      "25thperc": 0.49,
+      "50thperc": 0.83,
+      "75thperc": 1.22,
+      "95thperc": 2.05
+},
+  {
+    "date": 1396224000.0,
+
+      "5thperc": -0.14,
+      "25thperc": 0.47,
+      "50thperc": 0.81,
+      "75thperc": 1.19,
+      "95thperc": 2.08
+},
+  {
+    "date": 1404086400.0,
+
+      "5thperc": -0.06,
+      "25thperc": 0.52,
+      "50thperc": 0.85,
+      "75thperc": 1.23,
+      "95thperc": 2.0695
+},
+  {
+    "date": 1412035200.0,
+
+      "5thperc": -0.04,
+      "25thperc": 0.54,
+      "50thperc": 0.87,
+      "75thperc": 1.26,
+      "95thperc": 2.08
+},
+  {
+    "date": 1419984000.0,
+
+      "5thperc": -0.05,
+      "25thperc": 0.53,
+      "50thperc": 0.86,
+      "75thperc": 1.23,
+      "95thperc": 2.05
+},
+  {
+    "date": 1427760000.0,
+
+      "5thperc": 0.01,
+      "25thperc": 0.52,
+      "50thperc": 0.85,
+      "75thperc": 1.24,
+      "95thperc": 2.1
+},
+  {
+    "date": 1435622400.0,
+
+      "5thperc": 0.05,
+      "25thperc": 0.55,
+      "50thperc": 0.88,
+      "75thperc": 1.25,
+      "95thperc": 2.14
+},
+  {
+    "date": 1443571200.0,
+
+      "5thperc": 0.08,
+      "25thperc": 0.57,
+      "50thperc": 0.9,
+      "75thperc": 1.26,
+      "95thperc": 2.149
+},
+  {
+    "date": 1451520000.0,
+
+      "5thperc": 0.06,
+      "25thperc": 0.55,
+      "50thperc": 0.89,
+      "75thperc": 1.23,
+      "95thperc": 2.1
+},
+  {
+    "date": 1459382400.0,
+
+      "5thperc": 0.05,
+      "25thperc": 0.55,
+      "50thperc": 0.87,
+      "75thperc": 1.25,
+      "95thperc": 2.1
+},
+  {
+    "date": 1467244800.0,
+
+      "5thperc": 0.09,
+      "25thperc": 0.57,
+      "50thperc": 0.9,
+      "75thperc": 1.27,
+      "95thperc": 2.11
+},
+  {
+    "date": 1475193600.0,
+
+      "5thperc": 0.12,
+      "25thperc": 0.59,
+      "50thperc": 0.91,
+      "75thperc": 1.27,
+      "95thperc": 2.13
+},
+  {
+    "date": 1483142400.0,
+
+      "5thperc": 0.08,
+      "25thperc": 0.58,
+      "50thperc": 0.9,
+      "75thperc": 1.24,
+      "95thperc": 2.07
+},
+  {
+    "date": 1490918400.0,
+
+      "5thperc": 0.06,
+      "25thperc": 0.56,
+      "50thperc": 0.88,
+      "75thperc": 1.23,
+      "95thperc": 2.06
+}
+]

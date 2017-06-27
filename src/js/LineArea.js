@@ -5,7 +5,8 @@ VictoryGroup,
 VictoryLine,
 VictoryArea,
 VictoryScatter,
-VictoryAxis
+VictoryAxis,
+VictoryVoronoiContainer,
 } from 'victory';
 
 
@@ -39,12 +40,20 @@ class LineArea extends React.Component {
       {x: 6, y: 5},
       {x: 7, y: 3},
     ];
+    const Cursor = ({ x, y, datum }) => (
+      <g>
+        <text x={x} y={y} style={{ textAnchor: 'end' }}>{datum.y.toFixed(1)}</text>
+        <path d={`M${x},250 L${x},50`} style={{ strokeWidth: 1, stroke: 'deeppink' }} />
+      </g>
+    )
+
     return (
-      <VictoryChart>
+      <VictoryChart
+
+      >
         <VictoryAxis
         //x axis
         />
-
         <VictoryGroup
           data={lineData}
         >
