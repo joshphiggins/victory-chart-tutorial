@@ -64,7 +64,8 @@ class LineArea extends React.Component {
           onClick={(e) => this.changeDataSet(data)}
         >All</button>
         <VictoryChart
-          domainPadding={{x:5, y: 20}}
+          domainPadding={{ x:5, y:20}}
+          //domainPadding={{y:20}}
           containerComponent={
             <VictoryZoomContainer
               dimension="x"
@@ -78,7 +79,7 @@ class LineArea extends React.Component {
           //x axis
           scale="time"
           //tickValues={dateArray}
-          tickFormat = {(t) => new Date(t).getFullYear() }
+          //tickFormat = {(t) => new Date(t).getFullYear() }
           style = {{
             ticks:{
               size: 2,
