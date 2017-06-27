@@ -35,6 +35,15 @@ class LineArea extends React.Component {
     });
   }
 
+  getTickFormat(x){
+    if(this.zoomData.length) > 8{
+      return `Q4-${x.getFullYear()}`
+    } else{
+      // get quarter
+      return `Q${}-${x.getFullYear()}`
+    }
+  }
+
   render()
   {
     const Cursor = ({ x, y, datum }) => (
