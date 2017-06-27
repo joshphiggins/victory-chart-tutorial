@@ -37,7 +37,6 @@ class LineArea extends React.Component {
 
   render()
   {
-
     const Cursor = ({ x, y, datum }) => (
       <g>
         <text x={x} y={y} style={{ textAnchor: 'end' }}>{datum.y.toFixed(1)}</text>
@@ -50,16 +49,16 @@ class LineArea extends React.Component {
       <div>
         <button
           onClick={(e) => this.changeDataSet(data.slice(-4))}
-        >1 yr.</button>
+        >1Y</button>
         <button
           onClick={(e) => this.changeDataSet(data.slice(-8))}
-        >2 yrs.</button>
+        >2Y</button>
         <button
           onClick={(e) => this.changeDataSet(data.slice(-20))}
-        >5 yrs.</button>
+        >5Y</button>
         <button
           onClick={(e) => this.changeDataSet(data.slice(-40))}
-        >10 yrs.</button>
+        >10Y</button>
         <button
           onClick={(e) => this.changeDataSet(data)}
         >All</button>
