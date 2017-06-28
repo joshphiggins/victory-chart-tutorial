@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+    "SublimeLinter":{
+        "linters":{
+            "babel-eslint":{
+                "excludes":[
+                    "dist/*",
+                    "node_modules/*"
+                ]
+            },
+            "jshint":{
+                "@disable":true
+            }
+        }
+    }
+}

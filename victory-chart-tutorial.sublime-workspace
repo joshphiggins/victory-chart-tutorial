@@ -1,0 +1,519 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"FORM",
+				"FormGroup"
+			],
+			[
+				"Form",
+				"FormGroup"
+			],
+			[
+				"fil",
+				"filteredItems"
+			],
+			[
+				"Fiter",
+				"FilterForm"
+			],
+			[
+				"bank",
+				"bank_meta_data"
+			],
+			[
+				"dat",
+				"datetime\tclass"
+			],
+			[
+				"one",
+				"one_year\tstatement"
+			],
+			[
+				"fu",
+				"future_qtr_end\tstatement"
+			],
+			[
+				"pr",
+				"previous_quarter\tfunction"
+			],
+			[
+				"s",
+				"s3_put_object\tfunction"
+			],
+			[
+				"Che",
+				"check_zip\tstatement"
+			],
+			[
+				"aw",
+				"aws_s3_file_name\tstatement"
+			],
+			[
+				"header",
+				"header_list\tparam"
+			],
+			[
+				"s3_",
+				"s3_json\tstatement"
+			],
+			[
+				"hea",
+				"header_list"
+			],
+			[
+				"local",
+				"local_json"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"get_",
+				"get_all_entries"
+			],
+			[
+				"SQ",
+				"SQLALCHEMY_DATABASE_URL"
+			],
+			[
+				"Fl",
+				"Flaskr"
+			],
+			[
+				"DATA",
+				"DATABASE_PATH"
+			],
+			[
+				"nul",
+				"nullable"
+			],
+			[
+				"get",
+				"get_full_url"
+			],
+			[
+				"BA",
+				"BASE_DIR"
+			],
+			[
+				"VAR",
+				"var_name"
+			],
+			[
+				"dir",
+				"dir_path"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/LineAreaTwo.js",
+			"settings":
+			{
+				"buffer_size": 3817,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 1480,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 178.0,
+		"last_filter": "lint mode",
+		"selected_items":
+		[
+			[
+				"lint mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"linter setting",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"enable",
+				"Preferences: Babel – User"
+			],
+			[
+				"lis",
+				"Package Control: List Packages"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 402.0,
+		"history":
+		[
+			"import socket; socket.socket(socket.AF_INET, socket.SOCK_STREAM).connect(/Users/joshhiggins/Library/Application Support/Anaconda/app/anaconda.sock)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/joshhiggins/projects/react-tutorials/victory-chart-tutorial",
+		"/Users/joshhiggins/projects/react-tutorials/victory-chart-tutorial/src",
+		"/Users/joshhiggins/projects/react-tutorials/victory-chart-tutorial/src/js"
+	],
+	"file_history":
+	[
+		"/Users/joshhiggins/projects/react-tutorials/victory-chart-tutorial/victory-chart-tutorial.sublime-project",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/src/theme-components-rounded.min.css",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/src/data/theme-search.min.css",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/src/data/theme-components-rounded.min.css",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/src/data/theme-bootstrap.min.css",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/src/components/BankSelect.js",
+		"/Users/joshhiggins/projects/react-tutorials/bank-component/package.json",
+		"/Users/joshhiggins/projects/react-tutorials/git-battle/package.json",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/Babel.sublime-settings",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/Oceanic Next.tmTheme",
+		"/Users/joshhiggins/Downloads/Oceanic Next.tmTheme",
+		"/Users/joshhiggins/projects/react-tutorials/create-react/my-app/src/App.js",
+		"/Users/joshhiggins/projects/react-tutorials/create-react/package.json",
+		"/Users/joshhiggins/projects/react-tutorials/create-react/package-lock.json",
+		"/Users/joshhiggins/Google Drive/Python/metronic_v4.7.1/theme/admin_3_rounded/form_validation.html",
+		"/Users/joshhiggins/projects/ffiec/project/ffiec.py",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/Anaconda.sublime-settings",
+		"/Users/joshhiggins/Google Drive/Python/optho_scrape/optho_docs.py",
+		"/Users/joshhiggins/Google Drive/Python/check_zip.py",
+		"/Users/joshhiggins/projects/rp_bk3/chp_10_REST/book3-exercises/_chapters/chp09/django_ecommerce/main/serializers.py",
+		"/Users/joshhiggins/projects/rp_bk3/chp_10_REST/book3-exercises/django_ecommerce/main/serializers.py",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/Plain text.sublime-settings",
+		"/Users/joshhiggins/Google Drive/Python/metronic_v4.7.1/theme/admin_3_material_design/components_bootstrap_maxlength.html",
+		"/Users/joshhiggins/Google Drive/Python/ffiec_xbrl.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/templates/views.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/base.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/development.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/__init__.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/production.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/staging.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/taskbuster/settings/testing.py",
+		"/Users/joshhiggins/projects/taskbusters_project/taskbuster_tutorial/functional_test/all_users.py",
+		"/Users/joshhiggins/projects/taskbusters_project/test",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/joshhiggins/.bash_profile"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"colors",
+			"colorS",
+			"colors",
+			"color",
+			"data",
+			"CheckIn",
+			"VictoryPie",
+			"axis",
+			"axisX",
+			"./img/portlet-reload-icon-white.png",
+			"./img/portlet-config-icon-white.png",
+			"./img/portlet-remove-icon-white.png",
+			"./img/portlet-collapse-icon.png",
+			"./img/portlet-expand-icon.png",
+			"./img/portlet-reload-icon.png",
+			"./img/portlet-config-icon.png",
+			"./img/portlet-remove-icon.png",
+			"./img/accordion-plusminus.png",
+			"./img/syncfusion-icons-white.png",
+			"icons",
+			"./img/syncfusion-icons.pn",
+			"./img/syncfusion-icons.png",
+			"../",
+			"FilterItems",
+			"filterItems",
+			"type",
+			"name_address",
+			"scripts",
+			"validations using icons",
+			"icons",
+			"app",
+			"settings",
+			"run",
+			"header_list",
+			"latest_date",
+			"SQLALCHEMY_DATABASE",
+			"sqlalch",
+			"UR",
+			"URI",
+			"print",
+			"get",
+			"get_db",
+			"app.app",
+			"li",
+			"django_settings",
+			"bootst",
+			"boots"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"./",
+			"app"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/LineAreaTwo.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								696,
+								696
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/joshhiggins/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1480,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								780,
+								780
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 16.0,
+						"translation.y": 347.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "package.json",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								832,
+								832
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "victory-chart-tutorial.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

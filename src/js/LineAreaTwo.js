@@ -1,12 +1,17 @@
 import React from 'react';
 import {
-VictoryChart,
-VictoryGroup,
-VictoryLine,
-VictoryArea,
-VictoryScatter,
-VictoryAxis,
-VictoryZoomContainer,
+  Grid,
+  Row,
+  Col,
+} from 'react-bootstrap';
+import {
+  VictoryChart,
+  VictoryGroup,
+  VictoryLine,
+  VictoryArea,
+  VictoryScatter,
+  VictoryAxis,
+  VictoryZoomContainer,
 } from 'victory';
 
 
@@ -21,8 +26,6 @@ class LineArea extends React.Component {
   }
 
   changeDataSet(data){
-    console.log(data)
-    // console.log(data[data.length-1]['50thperc'])
     // console.log({x: [ data[0].x, data[data.length-1].x]});
     this.setState({
      zoomData: data,
@@ -35,14 +38,14 @@ class LineArea extends React.Component {
     });
   }
 
-  getTickFormat(x){
+  /*getTickFormat(x){
     if(this.zoomData.length) > 8{
       return `Q4-${x.getFullYear()}`
     } else{
       // get quarter
       return `Q${}-${x.getFullYear()}`
     }
-  }
+  }*/
 
   render()
   {
@@ -53,90 +56,101 @@ class LineArea extends React.Component {
       </g>
     )
     const data = this.state.data
+    const mostRecentMetric = data[data.length-1]['50thperc']
     const dateArray = Object.keys(data).map(key => data[key]['date'])
-    return (
-      <div>
-        <button
-          onClick={(e) => this.changeDataSet(data.slice(-4))}
-        >1Y</button>
-        <button
-          onClick={(e) => this.changeDataSet(data.slice(-8))}
-        >2Y</button>
-        <button
-          onClick={(e) => this.changeDataSet(data.slice(-20))}
-        >5Y</button>
-        <button
-          onClick={(e) => this.changeDataSet(data.slice(-40))}
-        >10Y</button>
-        <button
-          onClick={(e) => this.changeDataSet(data)}
-        >All</button>
-        <VictoryChart
-          domainPadding={{ x:5, y:20}}
-          //domainPadding={{y:20}}
-          containerComponent={
-            <VictoryZoomContainer
-              dimension="x"
-              onDomainChange={this.handleDomainChange.bind(this)}
-              zoomDomain={this.state.selectedDomain}
-              allowZoom={false}
-            />
-          }
-        >
-          <VictoryAxis
-          //x axis
-          scale="time"
-          //tickValues={dateArray}
-          //tickFormat = {(t) => new Date(t).getFullYear() }
-          style = {{
-            ticks:{
-              size: 2,
-              stroke: "#455A64"
-            }
-          }}
-          />
-          {/*<VictoryGroup
-            data={lineData}
-          >
-            <VictoryLine
-              style={{ data: { stroke: "tomato", fill: "white", strokeWidth: 3 } }}
-            />
-            <VictoryScatter
-              size={3}
-              style={{ data: { stroke: "tomato", fill: "white", strokeWidth: 2 } }}
-            />
-          </VictoryGroup>*/}
-          <VictoryGroup
-            data={this.state.zoomData}
-            x={"date"}
-            y={"50thperc"}
-          >
-            <VictoryLine style={{ data: { stroke: "navy" } }}/>
-            <VictoryScatter
-              size={1}
-              style={{ data: { stroke: "navy", fill: "white", strokeWidth: 2 } }}
-            />
-          </VictoryGroup>
-          {/*<VictoryArea
-             data={data}
-             style={{ data: { fill: "gray", opacity: 0.4 } }}
-           />
-          <VictoryArea
-             data={data95}
-             style={{ data: { fill: "gray", opacity: 0.1 } }}
-           />*/}
-          <VictoryAxis
-          // y axis
-            dependentAxis
-            tickFormat={(x) => (`${x.toFixed(2)}%`)}
-            style={{
 
-              grid: {stroke:"#455A64"},
-              tickLabels: {fontSize: 12, padding: 5,}
-            }}
-          />
-         </VictoryChart>
-      </div>
+    return (
+      <section className="main-graph">
+        <Grid>
+          <Row>
+            <button
+              onClick={(e) => this.changeDataSet(data.slice(-4))}
+            >1Y</button>
+            <button
+              onClick={(e) => this.changeDataSet(data.slice(-8))}
+            >2Y</button>
+            <button
+              onClick={(e) => this.changeDataSet(data.slice(-20))}
+            >5Y</button>
+            <button
+              onClick={(e) => this.changeDataSet(data.slice(-40))}
+            >10Y</button>
+            <button
+              onClick={(e) => this.changeDataSet(data)}
+            >All</button>
+          </Row>
+          <h1>{`${mostRecentMetric}%`}</h1>
+          <Col xs={12} md={8}>
+            <VictoryChart
+              // domainPadding={{ x:5, y:20}}
+              // domainPadding={{y:20}}
+              containerComponent={
+                <VictoryZoomContainer
+                  dimension="x"
+                  onDomainChange={this.handleDomainChange.bind(this)}
+                  zoomDomain={this.state.selectedDomain}
+                  allowZoom={false}
+                />
+              }
+            >
+              <VictoryAxis
+              //x axis
+              scale="time"
+              // domainPadding={{x:5}}
+              //tickValues={dateArray}
+              //tickFormat = {(t) => new Date(t).getFullYear() }
+              style = {{
+                ticks:{
+                  size: 2,
+                  stroke: "#455A64"
+                }
+              }}
+              />
+              {/*<VictoryGroup
+                data={lineData}
+              >
+                <VictoryLine
+                  style={{ data: { stroke: "tomato", fill: "white", strokeWidth: 3 } }}
+                />
+                <VictoryScatter
+                  size={3}
+                  style={{ data: { stroke: "tomato", fill: "white", strokeWidth: 2 } }}
+                />
+              </VictoryGroup>*/}
+              <VictoryGroup
+                data={this.state.zoomData}
+                x={"date"}
+                y={"50thperc"}
+              >
+                <VictoryLine style={{ data: { stroke: "navy" } }}/>
+                <VictoryScatter
+                  size={1}
+                  style={{ data: { stroke: "navy", fill: "white", strokeWidth: 2 } }}
+                />
+              </VictoryGroup>
+              {/*<VictoryArea
+                 data={data}
+                 style={{ data: { fill: "gray", opacity: 0.4 } }}
+               />
+              <VictoryArea
+                 data={data95}
+                 style={{ data: { fill: "gray", opacity: 0.1 } }}
+               />*/}
+              <VictoryAxis
+              // y axis
+                // domainPadding={{y:20}}
+                dependentAxis
+                tickFormat={(x) => (`${x.toFixed(2)}%`)}
+                style={{
+
+                  grid: {stroke:"#455A64"},
+                  tickLabels: {fontSize: 12, padding: 5,}
+                }}
+              />
+             </VictoryChart>
+          </Col>
+        </Grid>
+      </section>
     );
   }
 }
